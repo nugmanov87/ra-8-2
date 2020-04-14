@@ -6,7 +6,7 @@ function App() {
   return (
     <div className="App">
       <div className="ui container">
-        <div className="ui red segments">
+        <div className="ui segments">
           <HookJsonFetch url={process.env.REACT_APP_DATA_URL} />
           <HookJsonFetch url={process.env.REACT_APP_ERROR_URL} />
           <HookJsonFetch url={process.env.REACT_APP_LOADING_URL} />
